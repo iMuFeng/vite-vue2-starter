@@ -9,7 +9,6 @@
     "type-check": "tsc --pretty --noEmit"
   },
   "dependencies": {
-    "@types/jest": "^28.1.4",
     "@vue/compiler-dom": "^3.2.37",
     "pinia": "^2.0.14",
     "vue": "^2.7.0",
