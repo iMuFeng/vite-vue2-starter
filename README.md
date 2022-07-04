@@ -15,9 +15,15 @@ npx degit iMuFeng/vite-vue2-starter vue-project
 cd vue-project
 ```
 
+### Development
+
 ```sh
 yarn install
 yarn dev
+```
+
+### Build
+
+```sh
 yarn build
-yarn serve
 ```
