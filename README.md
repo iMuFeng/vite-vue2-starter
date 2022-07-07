@@ -18,6 +18,9 @@ cd vue-project
 ### Development
 
 ```sh
+pnpm install
+pnpm dev
+# or
 yarn install
 yarn dev
 ```
@@ -25,5 +28,7 @@ yarn dev
 ### Build
 
 ```sh
+pnpm build
+# or
 yarn build
 ```
