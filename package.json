@@ -6,7 +6,8 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint . --ext .js --ext .vue --quiet --fix",
-    "type-check": "tsc --pretty --noEmit"
+    "type-check": "tsc --pretty --noEmit",
+    "prepare": "husky install"
   },
   "dependencies": {
     "pinia": "^2.0.14",
@@ -28,8 +29,16 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^9.1.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
     "vite": "^2.9.13"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,vue}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
