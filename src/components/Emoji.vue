@@ -12,7 +12,7 @@ const changes = ref(0)
 
 const emojis = computed(() => {
 	changes.value += 1
-	return Array.from({ length: props.count }).fill('😊')
+	return Array.from({ length: props.count }).fill('📮')
 })
 </script>
 
@@ -20,7 +20,7 @@ const emojis = computed(() => {
 	<div>
 		<p>Changes: {{ changes }}</p>
 		<p>
-			<span v-for="emoji in emojis">{{ emoji }}</span>
+			<span v-for="(emoji, index) in emojis" :key="index">{{ emoji }}</span>
 		</p>
 	</div>
 </template>

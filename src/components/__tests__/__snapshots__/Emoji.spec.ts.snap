@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Emoji Component should render 5 emojis 1`] = `
+"<div>
+  <p>Changes: 0</p>
+  <p><span>📮</span><span>📮</span><span>📮</span><span>📮</span><span>📮</span></p>
+</div>"
+`;
