@@ -32,3 +32,7 @@ pnpm build
 # or
 yarn build
 ```
+
+## License
+
+[MIT License](./LICENSE)
