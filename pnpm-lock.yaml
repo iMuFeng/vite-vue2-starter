@@ -26,13 +26,13 @@ specifiers:
   ts-jest: ^28.0.5
   typescript: ^4.7.4
   vite: ^2.9.13
-  vue: ^2.7.6
+  vue: ^2.7.7
   vue-router: 3.5.4
-  vue-template-compiler: 2.7.6
+  vue-template-compiler: 2.7.7
 
 dependencies:
-  pinia: 2.0.14_typescript@4.7.4+vue@2.7.6
-  vue: registry.npmjs.org/vue/2.7.6
+  pinia: 2.0.14_typescript@4.7.4+vue@2.7.7
+  vue: registry.npmjs.org/vue/2.7.7
   vue-router: 3.5.4
 
 devDependencies:
@@ -40,11 +40,11 @@ devDependencies:
   '@types/node': 18.0.3
   '@typescript-eslint/eslint-plugin': 5.30.5_6zdoc3rn4mpiddqwhppni2mnnm
   '@typescript-eslint/parser': 5.30.5_4x5o4skxv6sl53vpwefgt23khm
-  '@vitejs/plugin-vue2': 1.1.2_vite@2.9.13+vue@2.7.6
+  '@vitejs/plugin-vue2': 1.1.2_vite@2.9.13+vue@2.7.7
   '@vue/eslint-config-standard': 7.0.0_q46tr7sch2w3fy5afvzg5sbpxa
   '@vue/eslint-config-typescript': 11.0.0_hko2ljsyixuca7xzzs7dalplrm
-  '@vue/test-utils': registry.npmjs.org/@vue/test-utils/1.3.0_iyq7emgma6msw74xmsbkgjwyqy
-  '@vue/vue2-jest': '@gitpkg.now.sh/FelixGraf/vue-jest/packages/vue2-jest?master_cq4j4b5tjelnpmo7yjuewvvz2y'
+  '@vue/test-utils': registry.npmjs.org/@vue/test-utils/1.3.0_bsfvtfsktrde675atkxiqnygju
+  '@vue/vue2-jest': '@gitpkg.now.sh/FelixGraf/vue-jest/packages/vue2-jest?master_cbj22yhr5a6cpqakf4baxp7coa'
   eslint: 8.19.0
   eslint-config-prettier: 8.5.0_eslint@8.19.0
   eslint-plugin-import: 2.26.0_iom7pm3yknyiblqpw2vvqvxs5i
@@ -60,7 +60,7 @@ devDependencies:
   ts-jest: 28.0.5_lt5llx2ti6zt4eclhanfli5ynu
   typescript: 4.7.4
   vite: 2.9.13
-  vue-template-compiler: registry.npmjs.org/vue-template-compiler/2.7.6
+  vue-template-compiler: registry.npmjs.org/vue-template-compiler/2.7.7
 
 packages:
 
@@ -975,7 +975,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue2/1.1.2_vite@2.9.13+vue@2.7.6:
+  /@vitejs/plugin-vue2/1.1.2_vite@2.9.13+vue@2.7.7:
     resolution: {integrity: sha512-y6OEA+2UdJ0xrEQHodq20v9r3SpS62IOHrgN92JPLvVpNkhcissu7yvD5PXMzMESyazj0XNWGsc8UQk8+mVrjQ==}
     engines: {node: '>=14.6.0'}
     peerDependencies:
@@ -983,7 +983,7 @@ packages:
       vue: ^2.7.0-0
     dependencies:
       vite: 2.9.13
-      vue: registry.npmjs.org/vue/2.7.6
+      vue: registry.npmjs.org/vue/2.7.7
     dev: true
 
   /@vue/devtools-api/6.2.0:
@@ -3580,7 +3580,7 @@ packages:
     hasBin: true
     dev: true
 
-  /pinia/2.0.14_typescript@4.7.4+vue@2.7.6:
+  /pinia/2.0.14_typescript@4.7.4+vue@2.7.7:
     resolution: {integrity: sha512-0nPuZR4TetT/WcLN+feMSjWJku3SQU7dBbXC6uw+R6FLQJCsg+/0pzXyD82T1FmAYe0lsx+jnEDQ1BLgkRKlxA==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
@@ -3594,8 +3594,8 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.2.0
       typescript: 4.7.4
-      vue: registry.npmjs.org/vue/2.7.6
-      vue-demi: 0.13.2_vue@2.7.6
+      vue: registry.npmjs.org/vue/2.7.7
+      vue-demi: 0.13.2_vue@2.7.7
     dev: false
 
   /pirates/4.0.5:
@@ -4240,7 +4240,7 @@ packages:
       fsevents: registry.npmjs.org/fsevents/2.3.2
     dev: true
 
-  /vue-demi/0.13.2_vue@2.7.6:
+  /vue-demi/0.13.2_vue@2.7.7:
     resolution: {integrity: sha512-41ukrclEbMddAyP7PvxMSYqnOSzPV6r7GNnyTSKSCNTaz19GehxmTiXyP9kwHSUv2+Dr6hHqiUiF7L1VAw2KdQ==}
     engines: {node: '>=12'}
     hasBin: true
@@ -4252,7 +4252,7 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      vue: registry.npmjs.org/vue/2.7.6
+      vue: registry.npmjs.org/vue/2.7.7
     dev: false
 
   /vue-eslint-parser/9.0.3_eslint@8.19.0:
@@ -4436,7 +4436,7 @@ packages:
       yargs-parser: 21.0.1
     dev: true
 
-  '@gitpkg.now.sh/FelixGraf/vue-jest/packages/vue2-jest?master_cq4j4b5tjelnpmo7yjuewvvz2y':
+  '@gitpkg.now.sh/FelixGraf/vue-jest/packages/vue2-jest?master_cbj22yhr5a6cpqakf4baxp7coa':
     resolution: {tarball: https://gitpkg.now.sh/FelixGraf/vue-jest/packages/vue2-jest?master}
     id: '@gitpkg.now.sh/FelixGraf/vue-jest/packages/vue2-jest?master'
     name: '@vue/vue2-jest'
@@ -4460,8 +4460,8 @@ packages:
       jest: 28.1.2_@types+node@18.0.3
       source-map: registry.npmjs.org/source-map/0.5.6
       ts-jest: 28.0.5_lt5llx2ti6zt4eclhanfli5ynu
-      vue: registry.npmjs.org/vue/2.7.6
-      vue-template-compiler: registry.npmjs.org/vue-template-compiler/2.7.6
+      vue: registry.npmjs.org/vue/2.7.7
+      vue-template-compiler: registry.npmjs.org/vue-template-compiler/2.7.7
     transitivePeerDependencies:
       - arc-templates
       - atpl
@@ -4739,10 +4739,10 @@ packages:
       '@jridgewell/sourcemap-codec': registry.npmjs.org/@jridgewell/sourcemap-codec/1.4.14
     dev: true
 
-  registry.npmjs.org/@vue/compiler-sfc/2.7.6:
-    resolution: {integrity: sha512-W677WEQdXSBEMd0egLtqKxQqmMuLM2zGPKFizjls0SYkEVrQL0ad124j7VbpEU0JLG4j8dp/3OFtvFGCG+grlQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-2.7.6.tgz}
+  registry.npmjs.org/@vue/compiler-sfc/2.7.7:
+    resolution: {integrity: sha512-Ah8dIuo6ZVPHTq9+s4rBU/YpJu3vGSNyeOTCrPrVPQnkUfnT5Ig+IKBhePuQWFXguYb2TuEWrEfiiX9DZ3aJlA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-2.7.7.tgz}
     name: '@vue/compiler-sfc'
-    version: 2.7.6
+    version: 2.7.7
     dependencies:
       '@babel/parser': registry.npmjs.org/@babel/parser/7.18.8
       postcss: registry.npmjs.org/postcss/8.4.14
@@ -4819,7 +4819,7 @@ packages:
       - whiskers
     dev: true
 
-  registry.npmjs.org/@vue/test-utils/1.3.0_iyq7emgma6msw74xmsbkgjwyqy:
+  registry.npmjs.org/@vue/test-utils/1.3.0_bsfvtfsktrde675atkxiqnygju:
     resolution: {integrity: sha512-Xk2Xiyj2k5dFb8eYUKkcN9PzqZSppTlx7LaQWBbdA8tqh3jHr/KHX2/YLhNFc/xwDrgeLybqd+4ZCPJSGPIqeA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@vue/test-utils/-/test-utils-1.3.0.tgz}
     id: registry.npmjs.org/@vue/test-utils/1.3.0
     name: '@vue/test-utils'
@@ -4831,8 +4831,8 @@ packages:
       dom-event-types: registry.npmjs.org/dom-event-types/1.1.0
       lodash: registry.npmjs.org/lodash/4.17.21
       pretty: registry.npmjs.org/pretty/2.0.0
-      vue: registry.npmjs.org/vue/2.7.6
-      vue-template-compiler: registry.npmjs.org/vue-template-compiler/2.7.6
+      vue: registry.npmjs.org/vue/2.7.7
+      vue-template-compiler: registry.npmjs.org/vue-template-compiler/2.7.7
     dev: true
 
   registry.npmjs.org/abbrev/1.1.1:
@@ -5844,10 +5844,10 @@ packages:
     version: 1.0.2
     dev: true
 
-  registry.npmjs.org/vue-template-compiler/2.7.6:
-    resolution: {integrity: sha512-z0xCDI/4eRTI6NihqDrxGNMkiH6XnUZ7Uh8UPwKRYYPxHyRHCqNuBQVf96+YYExPsJkLABZfexFHz9DClyfoXQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.7.6.tgz}
+  registry.npmjs.org/vue-template-compiler/2.7.7:
+    resolution: {integrity: sha512-vxOsjWhvDPyMW7QwXPecNmTNwKyXiF+j4KjBFjDxYPuY0xvqCT5o9WrapVItR/Nrh0XThfBaL19kXFSNYtbKmw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.7.7.tgz}
     name: vue-template-compiler
-    version: 2.7.6
+    version: 2.7.7
     dependencies:
       de-indent: registry.npmjs.org/de-indent/1.0.2
       he: registry.npmjs.org/he/1.2.0
@@ -5859,12 +5859,12 @@ packages:
     version: 1.9.1
     dev: true
 
-  registry.npmjs.org/vue/2.7.6:
-    resolution: {integrity: sha512-5hfTjdByl2R9rtGmPzP+31/EURYwpIXhgyhZ+sO1biG3s49iuHVqwC9ZrPTqn22IPISn0UZLF5WwQ4KMMWec2w==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/vue/-/vue-2.7.6.tgz}
+  registry.npmjs.org/vue/2.7.7:
+    resolution: {integrity: sha512-osfkncsGCWqtch+YWYxbqTNQ9hl/UQ6TFRkdmK/VqAjuMpxzr5QotFsYpmJ1AB1ez2LJeIKXDmtMkXUotMOTsA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/vue/-/vue-2.7.7.tgz}
     name: vue
-    version: 2.7.6
+    version: 2.7.7
     dependencies:
-      '@vue/compiler-sfc': registry.npmjs.org/@vue/compiler-sfc/2.7.6
+      '@vue/compiler-sfc': registry.npmjs.org/@vue/compiler-sfc/2.7.7
       csstype: registry.npmjs.org/csstype/3.1.0
 
   registry.npmjs.org/wrappy/1.0.2:
